@@ -1,0 +1,33 @@
+.product-card{
+    position: relative;
+}
+
+
+.card-image{
+    height: 500px;
+    width: 586px;
+    z-index: 6;
+    border-radius: 12px;
+    object-fit: cover;
+    }
+
+    .text-wrapper{
+        position: absolute;
+        text-align: center;
+        top: 12rem;
+        right: 50px;
+    }
+    
+    .text-wrapper h2{
+        font-size: 30px;
+        color: white;
+    }
+    .text-wrapper p{
+        font-size: 30px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .text-wrapper .btn{
+        margin-right: 20px;
+    }
+

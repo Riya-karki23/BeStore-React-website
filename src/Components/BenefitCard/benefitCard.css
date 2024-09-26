@@ -1,0 +1,25 @@
+.benefitCard-wrapper{
+    width: 382px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.benefit-image{
+    width: 153px;
+    height: 99px;
+}
+
+.benefit-title{
+    font-size: 18px;
+    color: #5F6271;
+    padding: 18px 0;
+}
+.benefit-para{
+    font-size: 15px;
+    color:#626262;
+    text-align: center;
+}

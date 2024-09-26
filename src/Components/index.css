@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------------------------------------------------------------top header */
+.header-top{
+    width: 100vw;
+    background-color: #101015;;
+    color: #BBBBBB;
+     padding: 15px 0px; 
+    font-size: medium;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-text{
+    margin: 0 130px;
+}
+
+.top-icons{
+    display: flex;
+    gap: 10px;
+    margin: 0 130px;
+}
+
+.icon:hover{
+    color: white;
+}
+
+/* --------------------------------------------------------------------------Navbar  */
+.main-nav{
+    width: 100vw;
+    background-color: bisque;
+    width: 100%;
+}
+.div-inner{
+    margin: 0 130px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-image{
+    height: auto;
+    width: 200px;
+}
+
+.div-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #BBBBBB;
+}
+.div-search input{
+    font-size: 17px;
+    border: #dfdddd;
+    font-weight:normal;
+
+}
+.nav-search{
+    width: 48rem;
+    outline: none;
+    padding: 15px 3px;
+    border: #dfdddd;
+    display: flex; 
+}
+
+.search-icon{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.nav-icons{
+    display: flex;
+    font-size: 18px;
+    width: 6rem;
+    justify-content: space-between;
+
+}
+.nav-bottom{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav-ul li{
+    color: #2A2B39;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul li:hover{
+color:#0089F7;
+cursor: pointer;
+}
+
+.like-icon{
+    position: relative;
+}
+
+.like-badge{
+    background-color: #0089F7;
+    border-radius: 100%;
+    font-size: 11px;
+    color: white;
+    height: 14px;
+    width: 12px;
+    padding: 1px 3px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    left: 15px;
+
+
+}
+
+
+
+
+/* ---------------------------------------------------------circle.jsx */
+.outer-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height:34px;
+width: 34px;
+border: 2px solid gainsboro;
+border-radius: 100%;
+}
+.inner-circle{
+    height: 30px;
+width: 30px;
+border-radius: 100%;
+}
+
+/* ---------------------------------counter div */
+
+.Counter-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    padding: 5rem 0 2rem 0;
+}
+.Counter-div span{
+    color: #0089F7;
+}
+
+/* ----------------------------------------Card component */
+
+.card{
+    height: 60px;
+    width: 150px;
+    padding: 60px 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: bold;
+}
+

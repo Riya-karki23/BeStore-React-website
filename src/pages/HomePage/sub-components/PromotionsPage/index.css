@@ -1,0 +1,62 @@
+.parentCard {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+}
+
+.parentCard::-webkit-scrollbar {
+    display: none; 
+}
+
+
+.promotion-outer-div{
+margin: 10px 160px;
+overflow-x: scroll;
+padding-bottom:30px;
+}
+
+.promotion-heading{
+    margin-bottom: 20px;
+    color:#161922;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.outer-div-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 6px;
+}
+.arrow-icon{
+    background-color: #F7F7F7;
+    padding: 16px 20px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: rgb(175, 168, 168);
+}
+
+.bottom-scroll-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.home-icon{
+    color: #0089F7;
+}
+
+.circle-icon{
+    font-size: 14px;
+    color: #d6cfcf;
+}

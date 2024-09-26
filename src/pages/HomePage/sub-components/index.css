@@ -1,0 +1,151 @@
+body{
+    font-family: poppins;
+}
+
+.home-outer-div{
+    background-color: rgb(247, 250, 252);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px 0 240px;
+    
+}
+.left-heading{
+font-size: 60px;
+margin-top: 80px;
+text-align: center;
+line-height: 70px;
+
+}
+
+.left-text{
+    color: #2A2B39;
+    margin: 50px;
+font-size: 18px;
+text-align: center;
+}
+
+.color-circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.left-view-button{
+    border: none;
+border-bottom: 4px solid black;
+font-size: 18px;
+margin-left: 30px;
+}
+
+/* --------------------------------------right div home page */
+.home-right-div img{
+     height: 550px;
+     width: 660px;
+}
+
+
+/* ----------------homepage Bottom ul */
+.homepage-bottom-ul{
+    display:flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    background-color: #F7F7F7;
+}
+.homepage-bottom-ul li{
+    text-align: center;
+    padding: 10px 90px;
+
+}
+
+.homepage-bottom-ul>:first-child{
+    color: #0089F7;
+}
+
+
+.homepage-bottom-ul li:hover{
+    color:#0089F7;
+}
+
+
+/* -------------------------------Cardpage  */
+
+.CardComponent{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 3rem 0 8rem 0;
+    margin: 0 160px;
+}
+
+
+/* ------------------------------------------------------Products page */
+
+.product-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #161922;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.card-main-div{
+display: flex;
+justify-content: center;
+margin: 0 120px;
+flex-direction: column;
+}
+.card-top-div{
+    display: flex;
+    gap: 20px;
+    margin-bottom:15px;
+}
+.card-bottom-div{
+    display: flex;
+    gap: 20px;
+}
+/* --------------------------------------------------------------CARD-4 */
+
+.card-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white ;
+    width: 482px;
+    border-radius: 12px;
+}
+
+.card-4 .card4-heading{
+    font-size: 30px;
+}
+.card-4 .card4-title{
+    font-size: 15px;
+}
+.outer-time-div{
+    display: flex;
+    padding: 39px 0 70px 0;
+}
+
+.number-days{
+    font-size: 60px;
+    color: #0089F7;
+}
+
+.hour-div{
+    margin: 0 54px;
+}
+
+.time-title{
+    font-size: 22px;
+
+}
