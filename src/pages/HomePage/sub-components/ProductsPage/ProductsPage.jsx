@@ -1,6 +1,7 @@
 import React from 'react'
-import ProductCard from '../../../Components/product cards/ProductCard'
-import Button from '../../../Components/Button/Button'
+import './product.css';
+import ProductCard from '../../../../Components/product cards/ProductCard'
+import Button from '../../../../Components/Button/Button'
 
 function ProductsPage() {
   return (

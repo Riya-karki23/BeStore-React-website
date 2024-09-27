@@ -10,7 +10,7 @@ function Counter() {
           clearInterval(intervalId);
           return 6000; 
         }
-        return prev + 20;
+        return prev + 10;
       });
     }, 20); 
   }
