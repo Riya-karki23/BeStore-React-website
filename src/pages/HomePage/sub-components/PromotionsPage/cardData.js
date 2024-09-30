@@ -6,6 +6,8 @@ const cardData=[
         title:'BeHeadphones',
         originalPrice:'99.90',
         afterDiscountPrice:'85.90'
+        
+
     },
     
     {

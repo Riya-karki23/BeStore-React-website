@@ -1,0 +1,14 @@
+.main-products-wrapper{
+    display: flex;
+    
+}
+.left-side-data{
+    width: 500px;
+    padding: 40px ;
+}
+.right-side-data{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px 60px;
+}

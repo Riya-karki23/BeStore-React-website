@@ -14,7 +14,6 @@ function HomePage() {
   return (
     <>
     <Home/>
-    <Counter/>
     <CardsPage/>
     <PromotionCards/>
     <ProductsPage/>

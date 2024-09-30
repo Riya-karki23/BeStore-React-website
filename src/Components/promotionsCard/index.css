@@ -1,13 +1,9 @@
 .card-outer-div{
-    height: 380px;
-    margin-bottom: 40px;
+       margin-bottom: 40px;
 }
 
 .card-img{
-height:279px ;
-background-color: rgb(241, 245, 247);
-
-width: 280px;
+height:310px ;
 object-fit: cover;
 }
 
@@ -56,10 +52,10 @@ object-fit: cover;
 position: absolute;
 display: flex;
 flex-direction: column;
-gap:22px;
+gap:15px;
 font-size: 18px;
-top: 20px;
-right: 20px;
+top: 15px;
+right: 15px;
 }
 
 
@@ -78,4 +74,17 @@ right: 20px;
 .rating-div{
 padding-top:3px ;
 color:#0089F7
+}
+
+.hover-sideicon{
+    background-color: rgba(216, 211, 211, 0.352);
+    border-radius: 50%;
+    /* height: 15px;
+    width: 15px; */
+    padding: 5px;
+    font-size: 20px;
+}
+
+.hover-sideicon:hover{
+    color: #0089F7;
 }

@@ -7,6 +7,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import { MdArrowDropDown } from "react-icons/md";
 import FeaturesHover from './HoverComponent/FeaturesHover';
 import PagesHover from './HoverComponent/PagesHover';
+import { NavLink } from 'react-router-dom';
 function Navbar() {
   const[showFeatureBox,setShowFeatureBox]=useState(false);
   const[showPageHoverBox,setShowPageHoverBox]=useState(false);
@@ -47,15 +48,15 @@ function hidePageBox(){
     </div>
     <div className="nav-bottom">
    <ul className='nav-ul'>
-    <li style={{color: '#0089F7'}}>Home</li>
-    <li onMouseEnter={showBox} onMouseLeave={hideBox}>Features <MdArrowDropDown/></li>
-    <li>Shop</li>
+    <NavLink className='nav-link' exact to='/'><li>Home</li></NavLink>
+    <NavLink className='nav-link' to='/features'><li onMouseEnter={showBox} onMouseLeave={hideBox}>Features <MdArrowDropDown/></li></NavLink>
+    <NavLink className='nav-link' to='/shop' ><li>Shop</li></NavLink>
     <li onMouseEnter={showPageBox} onMouseLeave={hidePageBox}>Pages <MdArrowDropDown/></li>
    </ul>
    <ul className='nav-ul '>
-    <li>About</li>
-    <li>Contacts</li>
-    <li>Terms of Use</li>
+    <NavLink  className='nav-link'to='/about'><li>About</li></NavLink>
+    <NavLink className='nav-link' to='/contact'><li>Contacts</li></NavLink>
+    <NavLink className='nav-link' to='/termsOfUse'><li>Terms of Use</li></NavLink>
    </ul>
     </div>
     {

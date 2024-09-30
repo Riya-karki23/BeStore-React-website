@@ -1,6 +1,6 @@
 import React from 'react'
 import './product.css';
-import ProductCard from '../../../../Components/product cards/ProductCard'
+import ProductCard from '../../../../Components/ProductCard/ProductCard'
 import Button from '../../../../Components/Button/Button'
 
 function ProductsPage() {
@@ -13,11 +13,17 @@ function ProductsPage() {
     </div>
     <div className="card-main-div">
     <div className="card-top-div">
-      <ProductCard imageUrl='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg1.webp' btnColor='white'/>
-      <ProductCard imageUrl='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg2.webp' btnColor='#0089F7'/>
+
+      <ProductCard imageUrl='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg1.webp' textColor='white' btnColor='white' title='Vedeo' text='Feel of sound' top='11rem' right='40px'/>
+
+
+      <ProductCard imageUrl='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg2.webp' btnColor='#0089F7' title='Denos T12' text='Small and powerful' top='40px' left='140px' btnText='white'/>
       </div>
+
       <div className="card-bottom-div">
-      <ProductCard className='card-3' imageUrl=' https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg3.webp' btnColor='#0089F7' cardWidth='700px'/>
+      <ProductCard className='card-3' imageUrl=' https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg3.webp'  text='Mobi The smart button' btnColor='#0089F7' cardWidth='700px' btnText='white' bottom='40px' left='150px'/>
+
+
       <div className="card-4">
         <h2 className='card4-heading'>
          Ending soon

@@ -3,7 +3,7 @@ body{
 }
 
 .home-outer-div{
-    background-color: rgb(247, 250, 252);
+    background-color: #F7F7F7;
     display: flex;
     justify-content: space-between;
     padding: 0 90px 0 240px;
@@ -32,10 +32,16 @@ text-align: center;
 }
 
 .left-view-button{
+    color: black;
     border: none;
 border-bottom: 4px solid black;
 font-size: 18px;
 margin-left: 30px;
+letter-spacing: 3px;
+}
+.left-view-button:hover{
+  opacity: 0.5;
+
 }
 
 /* --------------------------------------right div home page */
@@ -61,6 +67,7 @@ margin-left: 30px;
 .homepage-bottom-ul li{
     text-align: center;
     padding: 10px 90px;
+    text-decoration: none;
 
 }
 

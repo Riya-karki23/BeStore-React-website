@@ -1,15 +1,13 @@
 import React, { useState } from 'react'
 import './index.css'
-import tooltipData from './tooltipData';
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarOutline } from "react-icons/io";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { MdOutlineZoomOutMap } from "react-icons/md";
 import { RiLinkM } from "react-icons/ri";
 import { IoBagOutline } from "react-icons/io5";
-import Tooltip from '../Tooltip/Tooltip';
 
-function Card({data}) {
+function Card({data,imageWidth}) {
     const [image,setImage]=useState(data.imageBefore)
     const [showIcons,setShowIcons]=useState(false);
 
@@ -46,7 +44,7 @@ return stars;
   return (
     <div className='card-outer-div'>
      <div className="card-top-imageSection" onMouseEnter={changeImage} onMouseLeave={prevImage}>  
-      <img className='card-img' src={image}/>
+      <img className='card-img' style={{width:imageWidth || '280px'}} src={image}/>
 
       {/* ----------------------------------------------------------label if data.label is present */}
       {
@@ -58,12 +56,12 @@ return stars;
 
         {/* ---------------------------------------------------------------------icons on hover */}
         {
-          showIcons &&  (     
+          showIcons && data.showIcons && (     
         <div className="card-image-icons">
-          <IoBagOutline />
-          <RiLinkM/>
-          <IoMdHeartEmpty/>
-          <MdOutlineZoomOutMap/>
+          <IoBagOutline className='hover-sideicon'/>
+          <RiLinkM className='hover-sideicon'/>
+          <IoMdHeartEmpty className='hover-sideicon'/>
+          <MdOutlineZoomOutMap className='hover-sideicon'/>
         </div>
           )}
 

@@ -1,16 +1,18 @@
 import React from 'react';
 import './featureProduct.css';
-import featureProductsData from './featureData';
+import ProductData from '../../../../data/productData';
 import Card from '../../../../Components/promotionsCard/Card';
 import Button from '../../../../Components/Button/Button';
 
 function FeaturedProducts() {
+  const featurePageData=ProductData.slice(0,8)
   return (
+
     <div className='feature-outer-div'>
       <h1 className='feature-title'>Featured products</h1>
       <div className="outer-card-wrapper">
       {
-        featureProductsData.map((data,index)=>(
+        featurePageData.map((data,index)=>(
 <Card data={data} key={index} className='card-component'/>
 ))
       }

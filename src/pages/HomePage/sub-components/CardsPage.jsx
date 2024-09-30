@@ -1,9 +1,12 @@
 import React from 'react'
 import Card from '../../../Components/Card'
-import '../sub-components/index.css'
+import './index.css'
+import Counter from '../../../Components/Counter'
 
 function CardsPage() {
   return (
+    <>
+    <Counter/>
     <div className='CardComponent'>
       <Card className='card-box' imageUrl={'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon1.webp'}title='Notebooks'/>
      
@@ -23,6 +26,7 @@ function CardsPage() {
         <Card className='card-box' imageUrl={'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon6.webp'}title='Accessories'/>
        
     </div>
+    </>
   )
 }
 

@@ -14,20 +14,21 @@
     .text-wrapper{
         position: absolute;
         text-align: center;
-        top: 12rem;
-        right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
     }
     
     .text-wrapper h2{
         font-size: 30px;
-        color: white;
     }
     .text-wrapper p{
         font-size: 30px;
         margin-bottom: 15px;
-        color: white;
     }
     .text-wrapper .btn{
         margin-right: 20px;
     }
-

@@ -1,4 +1,4 @@
-const featureProductsData=[
+const ProductData=[
     {
         label:19,
         imageBefore:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic16-800x800.webp',
@@ -7,6 +7,7 @@ const featureProductsData=[
         originalPrice:'99.90',
         afterDiscountPrice:'85.90',
         stock:false,
+        showIcons:true
     },
     {
         imageBefore:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic17-800x800.webp',
@@ -15,6 +16,8 @@ const featureProductsData=[
         afterDiscountPrice:'250.00',
         rating:3,
         stock:true,
+        showIcons:true
+
     },
     {
         imageBefore:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic6-800x800.webp',
@@ -22,7 +25,9 @@ const featureProductsData=[
         title:'BeHeadphones',
         afterDiscountPrice:'250.00',
         rating:5,
-        stock:true
+        stock:true,
+        showIcons:true
+
     },
     {
         label:25,
@@ -31,7 +36,9 @@ const featureProductsData=[
         title:'BeHeadphones',
         afterDiscountPrice:'225.00',
         rating:5,
-        stock:true
+        stock:true,
+        showIcons:true
+
     },
     {
         imageBefore:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic11-800x800.webp',
@@ -40,7 +47,9 @@ const featureProductsData=[
         originalPrice:'99.90',
         afterDiscountPrice:'85.90',
         rating:5,
-        stock:true   
+        stock:true,
+        showIcons:true
+
      },
     {
         label:25,
@@ -49,7 +58,10 @@ const featureProductsData=[
         title:'BeHeadphones',
         originalPrice:'99.90',
         afterDiscountPrice:'85.90',
-        stock:false
+        stock:false,
+        showIcons:true
+        
+         
     },
     {
         label:17,
@@ -59,7 +71,9 @@ const featureProductsData=[
         originalPrice:'99.90',
         afterDiscountPrice:'85.90',
         rating:5,
-        stock:false
+        stock:false,
+        showIcons:true
+
     },
     {
         label:29,
@@ -69,9 +83,22 @@ const featureProductsData=[
         originalPrice:'140.00',
         afterDiscountPrice:'99.00',
         rating:4,
-        stock:true
+        stock:true,
+        showIcons:true
+
+    },
+    {
+        label:29,
+        imageBefore:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic2-800x800.webp',
+        imageAfter:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic2-2.webp',
+        title:'BeHeadphones',
+        afterDiscountPrice:'300.00',
+        rating:5,
+        stock:true,
+        showIcons:true
+
     }
 ]
 
 
-export default featureProductsData;
+export default ProductData;
