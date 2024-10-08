@@ -1,6 +1,6 @@
 import React from 'react';
 import './featureProduct.css';
-import ProductData from '../../../../data/productData';
+import { ProductData } from '../../../../data/productData';
 import Card from '../../../../Components/promotionsCard/Card';
 import Button from '../../../../Components/Button/Button';
 
@@ -8,7 +8,7 @@ function FeaturedProducts() {
   const featurePageData=ProductData.slice(0,8)
   return (
 
-    <div className='feature-outer-div'>
+    <section className='feature-outer-div'>
       <h1 className='feature-title'>Featured products</h1>
       <div className="outer-card-wrapper">
       {
@@ -18,7 +18,7 @@ function FeaturedProducts() {
       }
     </div>
     <Button btnColor='#dcdcdc' btnText='Browse more'/>
-    </div>
+    </section>
   )
 }
 

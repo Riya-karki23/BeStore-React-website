@@ -1,7 +1,6 @@
 import React from 'react'
-import Home from './sub-components/Home'
-import Counter from '../../Components/Counter'
-import CardsPage from './sub-components/CardsPage'
+import CardsPage from './sub-components/CardsPage/CardsPage';
+import Home from './sub-components/TopPage1.jsx/Home'
 import PromotionCards from './sub-components/PromotionsPage/PromotionCards';
 import FeaturedProducts from './sub-components/Featured products/FeaturedProducts';
 import Benefit from './sub-components/BenefitsPage/Benefit';

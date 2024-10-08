@@ -1,11 +1,11 @@
 import React from 'react'
-import '../sub-components/index.css'
-import Circle from '../../../Components/Circle'
+import './home.css';
+import Circle from '../../../../Components/Circle'
 
 function Home() {
   return (
     <>
-    <div className='home-outer-div'>
+    <section className='home-outer-div'>
         {/* ---------------------------------------------------left div */}
      <div className='home-left-div'>
         <p className='left-heading'>
@@ -29,7 +29,7 @@ Betheme's is ready for your <br/>ecoomerce business
      <div className='home-right-div'>
 <img src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-slider-pic1.webp'/>
      </div>
-    </div>
+    </section>
     <ul className='homepage-bottom-ul'>
       <li>The Watch</li>
       <li>The blast of details</li>

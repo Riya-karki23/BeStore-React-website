@@ -1,3 +1,32 @@
+
+.benefitCard-wrapper{
+    width: 382px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.benefit-image{
+    width: 153px;
+    height: 99px;
+}
+
+.benefit-title{
+    font-size: 18px;
+    color: #5F6271;
+    padding: 18px 0;
+}
+.benefit-para{
+    font-size: 15px;
+    color:#626262;
+    text-align: center;
+}
+
+/* --------------------------- */
+
 .benefit-outer-div{
     display: flex;
     justify-content: center;
@@ -15,4 +44,21 @@
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+}
+
+/* ----------------------------------------------media query */
+
+@media only screen and (max-width:991px){
+    .benefit-outer-div{
+        margin: 80px 10px;
+    }
+    .benefit-image{
+        width: 120px;
+        height: 70px;
+    }
+    .benefitCard-wrapper{
+        width: 252px;
+        height: 230px;
+       
+    }
 }

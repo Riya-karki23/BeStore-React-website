@@ -24,7 +24,7 @@ const images=[
 
   return (
     <>
-      <div className='brands-wrapper'>
+      <section className='brands-wrapper'>
         <p className= 'brands-heading'>Luxury brands in our store</p>
         <ul>
         {images.map((data,index)=>(
@@ -45,15 +45,17 @@ const images=[
   
     </div>
 </div>
-    </div>
-    <div className="brands-page-bottom-section">
+    </section>
+    {/* ------------------------------------------------------ */}
+
+    <section className="brands-page-bottom-section">
   <img src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon7.webp' alt='icon-image'/>
   <div className="">
     <p className='bottom-title'>Ready to create website with Betheme?</p>
     <p className='bottom-text-para'>Mi maecenas dolor risus iaculis <span className='text-blue'> porttitor</span></p>
   </div>
   <Button btnColor='#0089F7' textColor='white' btnText='Buy Betheme now'/>
-    </div>
+    </section>
     </>
   )
 }

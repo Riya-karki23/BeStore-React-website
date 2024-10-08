@@ -1,6 +1,6 @@
 import React from 'react'
 import './productList.css';
-import ProductData from '../../../../data/productData';
+import {ProductData} from '../../../../data/productData';
 import Card from '../../../../Components/promotionsCard/Card';
 
 function ProductList() {

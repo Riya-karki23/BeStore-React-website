@@ -58,8 +58,8 @@ function Footer() {
             <p className='col-4-text'>Curabitur interdum. Proin 
                 <br/>
                 consectetuer ut, more information.</p>
-                <img className='col-4-topImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon1.webp'/>
-                <img src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon2.webp'/>
+                <img className='col-4-topImage col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon1.webp'/>
+                <img  className='col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon2.webp'/>
         </div>
 
     </div>

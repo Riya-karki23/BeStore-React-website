@@ -1,6 +1,7 @@
 
 .slider-main-wrapper{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     padding:110px 170px;
 }
 
@@ -8,12 +9,6 @@
     margin-top: 49px;
     color: white;
     position: relative;
-}
-
-.slider-image{
-    height: 570px;
-    width: 570px;
-    object-fit: contain;
 }
 
 .left-slider-heading{
@@ -67,3 +62,27 @@ bottom: 0;
     border: 3px solid #a49c9c;
 }
 
+.slider-right{
+    height: 400px;
+}
+
+@media only screen and (max-width:991px){
+    .slider-main-wrapper{
+        padding: 50px ;
+    }
+    .left-slider-heading{
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+    .left-slider-heading{
+        margin: 20px 0 20px 0;
+
+    }
+    .left-slider-bottom{
+        bottom: 50px;
+        padding-right: 0;
+        gap: 30px;
+    }
+    
+}

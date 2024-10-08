@@ -1,0 +1,23 @@
+
+.CardComponent{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 3rem 0 8rem 0;
+    margin: 0 160px;
+}
+
+
+@media only screen and (max-width: 991px){
+    .CardComponent{
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 50px;
+    }
+
+    
+    .card{
+        width: 200px !important;
+    }
+    
+}

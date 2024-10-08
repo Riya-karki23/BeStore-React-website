@@ -1,12 +1,12 @@
 import React from 'react'
 import './shopPage.css'
-import Heading from './subComponents/heading/Heading'
 import ProductList from './subComponents/productsList/ProductList'
+import SubHeader from '../../Components/SubHeader/SubHeader'
 
 function ShopPage() {
   return (
  <>
- <Heading/>
+ <SubHeader pageName='Shop'/>
  <ProductList/>
  </>
   )

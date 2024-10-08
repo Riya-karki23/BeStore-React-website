@@ -83,3 +83,21 @@ align-items: center;
     color: #626262;
     padding-top: 10px;
 }
+
+@media only screen and (max-width:991px){
+    .brands-page-bottom-section{
+        
+        padding: 60px 50px;
+        gap: 30px;
+       
+        }
+
+        .brands-wrapper{
+            margin: 10px 80px;
+        }
+        
+        .bottom-left-text{
+            padding-right: 70px;
+        }
+        
+}

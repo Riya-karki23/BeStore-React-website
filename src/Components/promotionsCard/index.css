@@ -4,7 +4,7 @@
 
 .card-img{
 height:310px ;
-object-fit: cover;
+width: 300px;
 }
 
 .card-title{
@@ -34,7 +34,7 @@ object-fit: cover;
 
 .card-top-imageSection{
     position: relative;
-    width: fit-content;
+    width: 280px;
 }
 
 .card-image-label{
@@ -87,4 +87,10 @@ color:#0089F7
 
 .hover-sideicon:hover{
     color: #0089F7;
+}
+@media only screen and (max-width: 991px){
+    .card-top-imageSection{
+        width: 350px;
+    }
+    
 }

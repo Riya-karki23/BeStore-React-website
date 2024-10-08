@@ -1,10 +1,11 @@
 import React from 'react'
+import SubHeader from '../../Components/SubHeader/SubHeader'
 
 function TermsOfUse() {
   return (
-    <div>
-      
-    </div>
+   <>
+   <SubHeader pageName='Terms of use'/>
+   </>
   )
 }
 

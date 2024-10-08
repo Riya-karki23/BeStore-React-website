@@ -24,7 +24,7 @@ function GoToNextSlide(){
 
 const currentData=sliderData[currentIndex];
   return (
-    <div  className='slider-main-wrapper' style={{backgroundColor:currentData.backgroundColor}}>
+    <section  className='slider-main-wrapper' style={{backgroundColor:currentData.backgroundColor}}>
       <div className="slider-left-data">
         <img src={currentData.logoImage} alt="logo" />
         <h1 className='left-slider-heading'>{currentData.title}</h1>
@@ -40,7 +40,7 @@ const currentData=sliderData[currentIndex];
       <div className="slider-right">
         <img className='slider-image' src={currentData.rightImage} alt='slider-image'/>
       </div>
-    </div>
+    </section>
   )
 }
 

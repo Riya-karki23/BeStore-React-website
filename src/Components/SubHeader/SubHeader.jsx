@@ -1,14 +1,12 @@
 import React from 'react'
-import './heading.css';
+import './subHeader.css'
+import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from "react-icons/io";
-import { Link, NavLink } from 'react-router-dom';
-
-
-function Heading() {
+function SubHeader({pageName}) {
   return (
     <div className="shop-main-wrapper">
   <p className='shop-title'>
-    Shop
+    {pageName}
   </p>
   <div className="shop-bottom-link">
    <Link to='/' className='home-link'> <p>
@@ -16,11 +14,11 @@ function Heading() {
     </p></Link>
     <IoIosArrowForward/>
     <p>
-  Shop
+  {pageName}
     </p>
   </div>
  </div>
   )
 }
 
-export default Heading
+export default SubHeader

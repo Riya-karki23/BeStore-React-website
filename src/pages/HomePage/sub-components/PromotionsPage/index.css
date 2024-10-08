@@ -63,3 +63,9 @@ padding-bottom:30px;
     font-size: 14px;
     color: #d6cfcf;
 }
+
+@media only screen and (max-width: 991px){
+    .promotion-outer-div{
+        margin: 10px 60px;
+        }
+}

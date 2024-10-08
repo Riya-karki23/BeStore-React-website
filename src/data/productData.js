@@ -1,4 +1,4 @@
-const ProductData=[
+export const ProductData=[
     {
         label:19,
         imageBefore:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-product-pic16-800x800.webp',
@@ -101,4 +101,29 @@ const ProductData=[
 ]
 
 
-export default ProductData;
+export const cardPageData=[
+    {
+        imageUrl:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon1.webp',
+        title:'Notebooks'
+    },
+    {
+        imageUrl:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon2.webp',
+        title:'Smartphones'
+    },
+    {
+        imageUrl:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon3.webp',
+        title:'Smartwatches'
+    },
+    {
+        imageUrl:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon4.webp',
+        title:'TV/Audio'
+    },
+    {
+        imageUrl:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon5.webp',
+        title:'Gaming'
+    },
+    {
+        imageUrl:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon6.webp',
+        title:'Accessories'
+    },
+]

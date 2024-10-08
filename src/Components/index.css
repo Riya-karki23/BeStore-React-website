@@ -13,6 +13,7 @@
     font-size: medium;
     font-weight: 100;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -80,9 +81,10 @@
     justify-content: space-between;
 
 }
+/* ------------------------------------------------------nav-bottom */
 .nav-bottom{
-    /* background-color: burlywood; */
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 20px 130px;
 }
@@ -179,15 +181,64 @@ border-radius: 100%;
 /* ----------------------------------------Card component */
 
 .card{
-    height: 60px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     padding: 60px 20px;
     background-color: #F7F7F7;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 8px;
+    gap: 30px;
     font-weight: bold;
+}
+
+
+/* --------------------------------------------media query */
+
+@media(max-width:991px){
+    
+
+    /* -------------------------header */
+
+    .header-top{
+         padding: 12px 0px; 
+        }
+    
+    .header-top-text{
+        margin: 0 60px;
+    }
+    
+
+/* ---------------------------------Navbar */
+    .div-inner{
+        margin: 20px 90px 70px 90px;
+    }
+    .div-search{
+        width:480px;
+        margin: 0 20px;
+    }
+
+    .nav-search{
+        width: 280px;
+    }
+    .nav-icons{
+        font-size: 22px;
+        gap:20px;
+    
+    }
+
+
+    /* ------------------------------------------------------nav-bottom */
+.nav-bottom{
+    display: none;
+}
+   
+
+.Counter-div{
+    margin:0;
+    padding: 20px 0;
+}
+
 }
 
