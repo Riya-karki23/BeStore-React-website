@@ -197,7 +197,7 @@
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .card-top-div{
     flex-direction: column;
   }
@@ -206,6 +206,9 @@
   }
   .card-main-div{
     margin: 0 20px;
+  }
+  .card-image{
+    width: 100vw;
   }
   .card-4{
     width:100%;
@@ -232,6 +235,9 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .card-main-div{
     margin: 0 30px;
+  }
+  .card-top-div{
+    flex-direction: row;
   }
 }
 
