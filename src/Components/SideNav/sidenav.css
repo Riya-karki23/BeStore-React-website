@@ -60,6 +60,7 @@
     font-size: 17px;
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .sidenav-wrapper{
     display: inline-block;

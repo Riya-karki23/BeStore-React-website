@@ -65,8 +65,8 @@ function Footer() {
                 consectetuer ut, more information.</p>
 
                 <div className="col-4-bottomImages">
-                <img className='col-4-topImage col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon1.webp'/>
-                <img  className='col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon2.webp'/>
+                <img className='col-4-topImage col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon1.webp' alt='footer-logo'/>
+                <img  className='col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon2.webp' alt='footer-logo'/>
                 </div>
         </div>
 

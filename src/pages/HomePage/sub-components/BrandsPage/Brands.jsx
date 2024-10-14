@@ -5,19 +5,19 @@ import Button from '../../../../Components/Button/Button';
 function Brands() {
 const images=[
     {
-        image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo6-150x55.webp'
+        image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo6-150x55.webp' 
     },
     {
-        image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo5-150x55.webp'
+        image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo5-150x55.webp' 
     },
     {
-    image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo4-150x55.webp'
+    image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo4-150x55.webp' 
     },
     {
-       image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo3-150x55.webp'
+       image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo3-150x55.webp' 
     },
     {
-       image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo2-150x55.webp'
+       image:'https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-logo2-150x55.webp' 
     }
 ]
 

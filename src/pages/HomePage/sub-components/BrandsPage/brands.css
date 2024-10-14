@@ -103,7 +103,7 @@ align-items: center;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 100px) and (max-width: 767px) {
 
     .brands-wrapper{
         margin: 10px 34px;

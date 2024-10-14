@@ -16,6 +16,7 @@ function ProductsPage() {
             <img
               className="card-image"
               src="https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg1.webp"
+              alt='card-1-image'
             />
             <div className="text-wrapper card-1-text">
               <h2>Vedeo</h2>
@@ -28,6 +29,7 @@ function ProductsPage() {
             <img
               className="card-image "
               src="https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg2.webp"
+              alt='card-2-image'
             />
             <div className="text-wrapper card-2-text">
               <h2>Denos T12</h2>
@@ -43,6 +45,7 @@ function ProductsPage() {
             <img
               className="card-image card-3-cardImage"
               src="https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-wrap-bg3.webp"
+              alt='card-3-image'
             />
             <div className="text-wrapper card-3-text">
               <p>Mobi The smart button</p>

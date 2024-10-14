@@ -11,7 +11,7 @@ function CardsPage() {
       {
       cardPageData.map((data,index)=>(
 
-      <Card key={index} className='card-box' imageUrl={data.imageUrl} title={data.title}/>
+      <Card key={index} className='card-box' imageUrl={data.imageUrl} title={data.title} alt='card-image'/>
      
       ))}
        

@@ -70,7 +70,7 @@ padding-bottom:30px;
         }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 100px) and (max-width: 480px) {
     .promotion-heading{
         font-size: 13px;
         margin-bottom: 0;

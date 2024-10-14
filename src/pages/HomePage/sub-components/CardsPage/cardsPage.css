@@ -11,7 +11,7 @@
 @media only screen and (max-width: 991px){
     .CardComponent{
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 15px;
     margin: 0 50px;
     }
 
@@ -22,7 +22,7 @@
     
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 100px) and (max-width: 480px) {
     .CardComponent{
         display: grid;
         grid-template-columns: repeat(2,1fr);

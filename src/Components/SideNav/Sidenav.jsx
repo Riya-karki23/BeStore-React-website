@@ -30,21 +30,21 @@ function Sidenav() {
       <LuSearch/>
       </div>
       <div className='sidenav-items'>
-      <NavLink to='/'>
+      <NavLink to='/' >
       <p  className='sidenav-link'>Home</p>
        </NavLink>
 
         <p className='sidenav-items-add sidenav-link'>Features <FiPlus className='add-icon'/></p>
-        <NavLink to='/shop'>
+        <NavLink to='/shop' >
         <p className='sidenav-link' >Shop</p>
         </NavLink>
 
         <p className='sidenav-items-add sidenav-link'>Pages <FiPlus className='add-icon'/></p>
-        <NavLink to='/about'>
+        <NavLink to='/about' >
         <p className='sidenav-link'>About</p>
         </NavLink>
 
-       <NavLink to='/contact'> 
+       <NavLink to='/contact' > 
        <p className='sidenav-link'>Contact</p>
        </NavLink>
 

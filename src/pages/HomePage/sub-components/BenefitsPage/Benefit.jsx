@@ -15,7 +15,7 @@ function Benefit() {
         {
           benefitData.map((data,index)=>(
             <div key={index} className='benefitCard-wrapper'>
-            <img className='benefit-image' src={data.image}/>
+            <img className='benefit-image' src={data.image} alt='top-image'/>
             <p className='benefit-title'>{data.title}</p>
       
             <p className='benefit-para'>{data.description}</p>

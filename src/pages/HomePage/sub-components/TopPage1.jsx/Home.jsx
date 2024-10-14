@@ -19,7 +19,7 @@ Betheme's is ready for your <br/>ecoomerce business
             <Circle circleColor='#C4826B'/>
             <Circle circleColor='#2E3D66'/>
             <Circle circleColor='#C4C4C4'/>
-            <Circle circleColor='#FFFFFF'/>
+            <Circle circleColor='#e1c2c2'/>
             </div>
             <button className='left-view-button'>View details</button>
         </div>

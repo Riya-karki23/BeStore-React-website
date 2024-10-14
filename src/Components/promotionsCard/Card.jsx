@@ -44,7 +44,7 @@ return stars;
   return (
     <div className='card-outer-div'>
      <div className="card-top-imageSection" onMouseEnter={changeImage} onMouseLeave={prevImage}>  
-      <img className='card-img' style={{width:imageWidth || '280px'}} src={image}/>
+      <img className='card-img' style={{width:imageWidth || '280px'}} src={image} alt='product-image'/>
 
       {/* ----------------------------------------------------------label if data.label is present */}
       {
