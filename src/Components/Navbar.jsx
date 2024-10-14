@@ -8,7 +8,8 @@ import { MdArrowDropDown } from "react-icons/md";
 import FeaturesHover from './HoverComponent/FeaturesHover';
 import PagesHover from './HoverComponent/PagesHover';
 import { NavLink } from 'react-router-dom';
-import Sidenav from "./SideNav/Sidenav";
+import Sidenav from './SideNav/Sidenav';
+
 
 
 function Navbar() {
@@ -49,6 +50,7 @@ function hidePageBox(){
         <FaRegUser/>
         <div className='like-icon'><FaRegHeart/><span className='like-badge'>0</span></div>
         <IoBagOutline/>
+         <Sidenav/>
       </div>
     </div>
     <div className="nav-bottom">

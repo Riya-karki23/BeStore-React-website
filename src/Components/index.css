@@ -58,6 +58,8 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #BBBBBB;
+    width: 100%;
+    margin: 0 15px;
 }
 .div-search input{
     font-size: 17px;
@@ -81,8 +83,7 @@
 .nav-icons{
     display: flex;
     font-size: 18px;
-    width: 6rem;
-    justify-content: space-between;
+    gap: 18px;
 
 }
 /* ------------------------------------------------------nav-bottom */
@@ -217,7 +218,7 @@ border-radius: 100%;
 
 /* --------------------------------------------media query */
 
-@media screen and (min-width:767px) and (max-width:991px){
+@media screen and (min-width:768px) and (max-width:991px){
     
 
     /* -------------------------header */
@@ -235,18 +236,14 @@ border-radius: 100%;
     .div-inner{
         margin: 20px 90px 70px 90px;
     }
-    .div-search{
-        width:480px;
-        margin: 0 20px;
-    }
-
-    .nav-search{
-        width: 280px;
-    }
+   
     .nav-icons{
         font-size: 22px;
         gap:20px;
     
+    }
+    .div-search{
+        width: 50%;
     }
 
 
@@ -259,6 +256,11 @@ border-radius: 100%;
 .Counter-div{
     margin:0;
     padding: 20px 0;
+}
+
+/* -----------------------sidenav */
+.sidenav-wrapper{
+    display: inline-block;
 }
 
 }
@@ -308,5 +310,24 @@ height: 160px;
         font-size: 30px;
         margin: 30px 0;
     }
+    .nav-bottom{
+        display: none;
+    }
 
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+   .nav-bottom{
+    display: none;
+   }
+   .div-search{
+    width: 65%;
+   }
+   
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1400px) {
+    .nav-bottom{
+        display: flex;
+    }
+    
 }
