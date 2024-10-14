@@ -23,6 +23,7 @@
   display: flex;
   gap: 20px;
 }
+
 /* --------------------------------------------------------------CARD-4 */
 
 .card-4 {
@@ -34,6 +35,7 @@
   color: white;
   width: 482px;
   border-radius: 12px;
+  padding: 20px;
 }
 
 .card4-heading {
@@ -41,6 +43,7 @@
 }
 .card4-title {
   font-size: 15px;
+  text-align: center;
 }
 .outer-time-div {
   display: flex;
@@ -50,6 +53,8 @@
 .number-days {
   font-size: 60px;
   color: #0089f7;
+  text-align: center;
+
 }
 
 .hour-div {
@@ -88,7 +93,7 @@
   color: white;
 }
 .card-2-text {
-  top: 40px;
+  top: 20%;
   left: 140px;
 }
 .card-3-text {
@@ -176,12 +181,26 @@
   }
   .card-4{
     width:100%;
+    padding: 20px ;
+  
   }
   .product-title{
     font-size: 24px;
   }
-  .card-2-text  p{
-    font-size: 18px;
+  .card-2-text h2{
+    font-size: 28px;;
+  }   
+  .card-2-text  {
+    left: 50%;
+   transform: translate(-50%, -50%);
+
+  }
+  .card-1-text{
+    top:50%;
+    right: 15px;
+  }
+  .card-2-text p{
+    font-size: 14px;
   }
   .outer-time-div{
     flex-direction: column;
@@ -193,6 +212,16 @@
   }
   .card4-title{
     font-size: 11px;
+  }
+  .card-3-text{
+    left: 0%;
+
+  }
+  .number-days{
+    font-size: 40px;
+  }
+  .time-title{
+    font-size: 16px;
   }
 }
 
