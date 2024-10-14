@@ -5,6 +5,7 @@
     background-image: url('https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-section-bg1.webp');
     display: flex;
     justify-content: center;
+    background-attachment: fixed;
     padding: 160px 0;
 }
 
@@ -35,6 +36,7 @@ font-size: 17px;
 
 .checkbox-div{
     display: flex;
+    align-items: center;
     gap: 10px;
     font-size: 15px;
     color: #626262;
@@ -49,4 +51,55 @@ font-size: 17px;
     padding: 16px 20px;
     text-align: center;
     border-radius: 8px;
+}
+
+/* ----------------------------------------------------phone screen */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .subscription-main-wrapper{
+        padding: 70px 80px;
+    }
+
+.subs-heading{
+    font-size: 24px;
+    line-height:35px;
+
+    
+}
+.input-boxes{
+    flex-direction: column;
+    align-items: center;
+}
+.input-content{
+    width: 100%;
+}
+.checkbox-div{
+    font-size: 14px;
+    display: block;
+}
+}
+
+/* -------------------------------for tablets */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .subscription-main-wrapper{
+        padding: 70px 80px;
+    }
+
+.subs-heading{
+    font-size: 24px;
+    line-height:35px;
+
+    
+}
+.input-boxes{
+    flex-direction: column;
+    align-items: center;
+}
+.input-content{
+    width: 100%;
+}
+.checkbox-div{
+    font-size: 14px;
+    display: block;
+}
 }

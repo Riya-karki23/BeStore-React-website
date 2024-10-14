@@ -62,3 +62,26 @@
        
     }
 }
+
+
+/* ------------------phone screen */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .benefit-cards-wrapper{
+        flex-direction: column;
+    }
+    .benefit-outer-div{
+        margin: 50px 20px;
+    }
+    .benefit-heading{
+        font-size: 24px;
+    }
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .benefitCard-wrapper{
+        width: 270px;
+    }
+}
+

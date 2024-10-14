@@ -88,9 +88,39 @@ color:#0089F7
 .hover-sideicon:hover{
     color: #0089F7;
 }
-@media only screen and (max-width: 991px){
+/* @media only screen and (min-width: 991px){
     .card-top-imageSection{
         width: 350px;
     }
     
+} */
+
+
+/* ------------------------------------------------------phone screen */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .card-top-imageSection{
+        width: 250px;
+        
+    }
+    .card-img{
+        height: 230px;
+    }
+}
+
+/* ----------------------------------------------------------------tablets */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .card-top-imageSection{
+        width: 208px;
+    }
+    .card-img{
+        height: 220px;
+    }
+    .card-title{
+        font-size: 15px;
+        font-weight: normal;
+    }
+   .card-outer-div{
+    margin-bottom: 10px;
+   }
+   
 }

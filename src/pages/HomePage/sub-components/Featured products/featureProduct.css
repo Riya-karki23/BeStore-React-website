@@ -29,7 +29,7 @@ font-size: 40px;
 
     
 
-@media only screen and (max-width: 991px){
+@media  screen and (min-width: 991px) and (max-width:1199px){
   .card-img{
     width: 400px;
   }
@@ -39,3 +39,30 @@ font-size: 40px;
     }
    
 }
+
+
+/* ----------------------------------------------------------------phone screen */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .outer-card-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-title{
+        font-size: 25px;
+    }
+    
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 991px) {
+    .outer-card-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30pxpx;
+    }
+    .feature-title{
+        font-size: 30px;
+    }
+}
+
+

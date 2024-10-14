@@ -6,6 +6,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaVimeoV } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoIosArrowUp } from "react-icons/io";
+import { BiGridAlt } from "react-icons/bi";
+import { FaRegUser } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa";
+import { IoBagOutline } from "react-icons/io5";
+
 
 
 function Footer() {
@@ -38,7 +43,7 @@ function Footer() {
         </div>
         <div className="col-3">
         <p className='ul-heading'>Working time</p>
-            <div className="">
+            <div className="col-3-text">
                <p>Level-13,2 Elizabeth St,<br/>
                Melborne,Victoria 3000,<br/>
                Australia</p>
@@ -58,8 +63,11 @@ function Footer() {
             <p className='col-4-text'>Curabitur interdum. Proin 
                 <br/>
                 consectetuer ut, more information.</p>
+
+                <div className="col-4-bottomImages">
                 <img className='col-4-topImage col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon1.webp'/>
                 <img  className='col-4-logoImage' src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-icon2.webp'/>
+                </div>
         </div>
 
     </div>
@@ -75,6 +83,14 @@ function Footer() {
         <IoIosArrowUp className='link-to-top'/>
       </div>
         </div>
+        <div className="phoneScreen-fixed-footer">
+            <BiGridAlt/>
+            <FaRegUser/>
+            <div className='footer-icon-badge'><IoBagOutline/><span className='like-badge'>0</span></div>
+            <div className='footer-icon-badge'><FaRegHeart/><span className='like-badge'>0</span></div>
+
+        </div>
+
         </>
   )
 }

@@ -101,3 +101,64 @@ align-items: center;
         }
         
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .brands-wrapper{
+        margin: 10px 34px;
+    }
+.bottom-text{
+    flex-direction: column;
+}
+.brands-page-bottom-section{
+    flex-direction: column;
+}
+.brands-heading{
+    font-size: 24px;
+}
+.brand-logo-image{
+padding: 3px;
+background-color: #fbfbfb;
+}
+.brands-wrapper ul{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.brand-logo-image{
+    height: 34px;
+    width: 85px;
+}
+.brands-li{
+    padding:15px 12px ;
+    background-color:#fbfbfb ;
+    margin: 8px;
+}
+
+/* --------------------------------------------------------------bottom para */
+.heading-bottom{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 0;
+}
+.bottom-left-text{
+    font-size: 13px;
+    padding: 0;
+}
+.bottom-text{
+    padding: 0;
+}
+.bottom-right-text{
+    margin: 40px 0;
+    font-size: 13px;
+}
+.bottom-title{
+    font-size: 18px;
+    text-align: center;
+}
+.bottom-text-para{
+    font-size: 13px;
+    text-align: center;
+}
+
+}

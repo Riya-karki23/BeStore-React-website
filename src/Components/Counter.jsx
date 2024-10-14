@@ -6,11 +6,11 @@ function Counter() {
   async function increaseCount() {
     const intervalId = setInterval(() => {
       setNumber((prev) => {
-        if (prev >= 6000) {
+        if (prev >= 60000) {
           clearInterval(intervalId);
-          return 6000; 
+          return 60000; 
         }
-        return prev + 10;
+        return prev + 100;
       });
     }, 20); 
   }

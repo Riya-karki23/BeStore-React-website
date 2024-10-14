@@ -50,7 +50,7 @@ if(ScrollCardRef.current){
     {/* -----------------------------------------------------------------bottom-scroll-icons */}
     <div className='bottom-scroll-icons'>
 <BiSolidHomeAlt2 
-style={{color:activeIcon==='home'?'#0089F7':'#D2D2D2'}} 
+style={{color:activeIcon==='home'?'':'#D2D2D2'}} 
 className='home-icon' 
 onClick={scrollBack}/>
 

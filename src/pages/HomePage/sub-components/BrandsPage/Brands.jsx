@@ -28,7 +28,7 @@ const images=[
         <p className= 'brands-heading'>Luxury brands in our store</p>
         <ul>
         {images.map((data,index)=>(
-   <li key={index}> <img  className='brand-logo-image' src={data.image} alt="brand-logo"/></li>
+   <li key={index} className='brands-li'> <img  className='brand-logo-image' src={data.image} alt="brand-logo"/></li>
 ))}
 </ul>
 
@@ -50,7 +50,7 @@ const images=[
 
     <section className="brands-page-bottom-section">
   <img src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-home-icon7.webp' alt='icon-image'/>
-  <div className="">
+  <div className="bottom-page-textContent">
     <p className='bottom-title'>Ready to create website with Betheme?</p>
     <p className='bottom-text-para'>Mi maecenas dolor risus iaculis <span className='text-blue'> porttitor</span></p>
   </div>

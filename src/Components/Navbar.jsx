@@ -8,6 +8,9 @@ import { MdArrowDropDown } from "react-icons/md";
 import FeaturesHover from './HoverComponent/FeaturesHover';
 import PagesHover from './HoverComponent/PagesHover';
 import { NavLink } from 'react-router-dom';
+import Sidenav from "./SideNav/Sidenav";
+
+
 function Navbar() {
   const[showFeatureBox,setShowFeatureBox]=useState(false);
   const[showPageHoverBox,setShowPageHoverBox]=useState(false);
@@ -30,7 +33,9 @@ function hidePageBox(){
 }
 
   return (
-    <div className='nav-upper'>
+    <>
+
+    <section className='nav-upper'>
         <div className="div-inner">
 
       <div className='nav-image'>
@@ -48,7 +53,7 @@ function hidePageBox(){
     </div>
     <div className="nav-bottom">
    <ul className='nav-ul'>
-    <NavLink className='nav-link' exact to='/'><li>Home</li></NavLink>
+    <NavLink className='nav-link'  to='/'><li>Home</li></NavLink>
     <NavLink className='nav-link' to='/features'><li onMouseEnter={showBox} onMouseLeave={hideBox}>Features <MdArrowDropDown/></li></NavLink>
     <NavLink className='nav-link' to='/shop' ><li>Shop</li></NavLink>
     <li onMouseEnter={showPageBox} onMouseLeave={hidePageBox}>Pages <MdArrowDropDown/></li>
@@ -69,7 +74,8 @@ function hidePageBox(){
       <PagesHover/>
     
     }
-    </div>
+    </section>
+    </>
 )
 }
 

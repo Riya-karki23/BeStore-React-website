@@ -7,10 +7,18 @@ body{
     font-family: poppins;
 }
 
+.color-circles-div{
+    display: flex;
+    gap: 10px;
+}
+.color-circles{
+    display: flex;
+}
 .home-outer-div{
     background-color: #F7F7F7;
     display: flex;
     gap: 40px;
+    width: 100vw;
     justify-content: space-between;
     padding: 0 90px 0 240px;
     
@@ -19,6 +27,7 @@ img{
 height: auto;
 max-width: 100%;
 }
+
 .left-heading{
 font-size: 60px;
 margin-top: 80px;
@@ -90,7 +99,7 @@ letter-spacing: 3px;
 
 /* -----------------------------------------------------------media query */
 
-@media only screen and (max-width: 991px){
+@media only screen and (min-width:768px) and (max-width: 991px){
     .home-outer-div{
         padding:  10px  90px;
     }
@@ -115,7 +124,103 @@ letter-spacing: 3px;
 
         .home-right-div img{
             height: 350px;
-       }
-
-       
+       }     
 }
+
+
+
+/* -------------------------phone screen */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+.home-outer-div{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+}
+
+.homepage-bottom-ul{
+    display:none;
+}
+.left-heading{
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+.left-text{
+    display: none;
+}
+.home-right-div img{
+    height: 190px;
+    max-width: 230px;
+}
+.inner-circle{
+height:20px;
+width: 20px;
+}
+.outer-circle{
+    border: none;
+}
+.color-circles-div{
+    display: flex;
+    gap: 0;
+}
+.color-circles{
+    flex-direction: column;
+    justify-content: center;
+}
+.left-view-button{
+    font-size: 13px;
+    border-bottom: 2px solid black;
+    letter-spacing: 0;
+
+}
+
+}
+
+/* ---------------------------------------------------------------------------media query for tablets */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  
+        .home-outer-div{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 0;
+            padding: 0;
+        }
+            .left-heading{
+                margin-top: -18px;
+                font-size: 37px;
+                line-height: 45px;
+            }
+            .left-text{
+                display: none;
+            }
+            .homepage-bottom-ul{
+                display: none;
+            }
+            .home-right-div img{
+                height: 280px;
+                max-width: 350px;
+            }
+            .color-circles{
+                flex-direction: column;
+                padding: 20px 0;
+            }
+            .inner-circle{
+                height: 25px;
+                width: 25px;
+                }
+                .left-view-button{
+                    font-size: 15px;
+                    margin: 10px 0;
+                    letter-spacing: 2px;
+                    border-bottom: 2.5px solid black;
+                }
+    
+}
+
+

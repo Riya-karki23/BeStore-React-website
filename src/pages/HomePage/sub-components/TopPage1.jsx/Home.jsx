@@ -15,10 +15,12 @@ function Home() {
 Betheme's is ready for your <br/>ecoomerce business
         </p>
         <div className="color-circles">
+          <div className="color-circles-div">
             <Circle circleColor='#C4826B'/>
             <Circle circleColor='#2E3D66'/>
             <Circle circleColor='#C4C4C4'/>
             <Circle circleColor='#FFFFFF'/>
+            </div>
             <button className='left-view-button'>View details</button>
         </div>
 

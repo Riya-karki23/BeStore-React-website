@@ -69,3 +69,36 @@ padding-bottom:30px;
         margin: 10px 60px;
         }
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .promotion-heading{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .promotion-outer-div{
+        margin: 0 30px;
+    }
+    .outer-div-top{
+        margin: 20px 0;
+    }
+    .bottom-scroll-icons{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .promotion-heading{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .promotion-outer-div{
+        margin: 0 10px;
+    }
+    .bottom-scroll-icons{
+        margin: 0;
+    }
+    .parentCard{
+        margin: 0 15px;
+    }
+
+}
