@@ -1,5 +1,5 @@
 import React from 'react'
-import SubHeader from '../../Components/SubHeader/SubHeader'
+import SubHeader from '../Contact/SubHeader/SubHeader'
 
 function TermsOfUse() {
   return (

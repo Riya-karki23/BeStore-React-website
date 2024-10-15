@@ -27,3 +27,16 @@
     text-decoration: none;
     color: #16192299;
 }
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .shop-bottom-link{
+        display: none;
+    }
+    .shop-title{
+        font-size: 30px;
+    }
+    .shop-main-wrapper{
+        padding: 15px 50px;
+        text-align: center;
+    }
+}

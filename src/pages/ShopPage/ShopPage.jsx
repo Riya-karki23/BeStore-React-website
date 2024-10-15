@@ -1,7 +1,7 @@
 import React from 'react'
 import './shopPage.css'
 import ProductList from './subComponents/productsList/ProductList'
-import SubHeader from '../../Components/SubHeader/SubHeader'
+import SubHeader from '../Contact/SubHeader/SubHeader'
 
 function ShopPage() {
   return (

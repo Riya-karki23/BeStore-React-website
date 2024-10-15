@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.css';
-import { MdOutlineLocationOn } from "react-icons/md";
-
+import { FaLocationDot } from "react-icons/fa6";
 function ContactPage1() {
   return (
     <section className='contact-main-wrapper'>
@@ -24,18 +23,18 @@ function ContactPage1() {
             <p>At habitant varius eros aliquet habitasse senectus quisque rhoncus volutpat nisi pellentesque porta in molestie: <span className='span-gray'>7:00 am - 9:00 pm</span></p>
             <div className="address-wrapper">
                 <div className="address">
-                  <MdOutlineLocationOn className='location-icon'/>
+                  <FaLocationDot className='location-icon'/>
                   <h3 className='text-black'>Address 1</h3>
                   <p className='address-para'>Level 13, 2 Elizabeth<br/>
                       Victoria 3000<br/>
                       Australia</p>
-                  <p>
+                  <p className='address-bottom-para'>
                   NR 000 000 00 00<br/>
                   NR 00 000 0000 0000
                   </p>
                 </div>
                 <div className="address">
-                    <MdOutlineLocationOn className='location-icon'/>
+                    <FaLocationDot className='location-icon'/>
                     <h3 className='text-black'>Address 2</h3>
                     <p className='address-para'>Level 13, 2 Elizabeth<br/>
                        Victoria 3000<br/>
@@ -44,7 +43,7 @@ function ContactPage1() {
                 </div>
             </div>
             </div>
-            <div >
+            <div className='contact-image-div'>
                 <img className='contact-right-image' src="https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore-contact-pic1.webp" alt='image' loading='lazy'/>
             </div>
            </div>
